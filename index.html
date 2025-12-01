@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Control LED por Web Serial</title>
+<link rel="stylesheet" href="styles.css">
+
+<div class="card">
+  <h1>Control LED desde el Navegador</h1>
+
+  <div class="row">
+    <button id="btnConnect">🔌 Conectar</button>
+    <button id="btnClose" class="danger" disabled>⛔ Cerrar puerto</button>
+  </div>
+
+  <div class="row">
+    <button id="btnOn" class="ok" disabled>🟢 ON</button>
+    <button id="btnOff" class="warn" disabled>🟡 OFF</button>
+    <button id="btnToggle" disabled>↕️ Toggle</button>
+  </div>
+
+  <div class="row">
+    <label>Baud:
+      <select id="baud">
+        <option selected>9600</option>
+        <option>19200</option>
+        <option>38400</option>
+        <option>57600</option>
+        <option>115200</option>
+      </select>
+    </label>
+    <span id="status" style="margin-left:auto">Sin conexión</span>
+  </div>
+
+  <div class="log" id="log" aria-label="Mensajes del puerto"></div>
+  <p style="color:#9fb0d6">Tip: cierra el puerto aquí antes de <b>Subir</b> desde Arduino IDE.</p>
+</div>
+
+<script src="app.js"></script>
+</html>
