@@ -15,7 +15,6 @@ La interfaz es una pequeña consola web donde puedes:
 
 ## 📸 Capturas de pantalla
 
-> *(Cambia los nombres de archivo por los que uses tú. Por ejemplo puedes crear una carpeta `docs/` o `img/`)*
 
 - Vista principal de la aplicación  
   ![UI principal](web01.png)
