@@ -32,6 +32,7 @@ La interfaz es una pequeña consola web donde puedes:
 
 ## Código Arduino
 
+```cpp
  1  // Control LED por comandos Serial: "ON" / "OFF" (+ Enter)
  2  // Baud: 9600
  3
@@ -77,7 +78,7 @@ La interfaz es una pequeña consola web donde puedes:
 43      }
 44    }
 45  }
-
+```
 
 
 ## 🧩 Estructura del proyecto
