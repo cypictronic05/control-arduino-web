@@ -79,6 +79,7 @@ La interfaz es una pequeña consola web donde puedes:
 45  }
 
 
+
 ## 🧩 Estructura del proyecto
 
 ```text
